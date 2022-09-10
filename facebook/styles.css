@@ -1,0 +1,126 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+background: #fff;
+line-height: 1.34;
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f0f2f5;
+}
+
+.wrapper{
+    width: 100%;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   margin-top: 132px;   
+}
+.fb-heading{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-right: 80px;
+margin-bottom: 45px;
+
+}
+.fb-heading img{
+    margin: -28px;
+}
+.under-fb{
+    margin-top: 10px;
+    font-size: 28px;
+    width: 500px;
+}
+h1{
+    color: blue;
+
+}
+.box-wrapper{
+    background-color: #fff;
+    min-width: 396px;
+    height: 315.828px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.2);
+
+}
+#form-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+ #email input,#password input {
+height: 52px;
+width: 364px;
+border:1px solid rgba(0, 0, 0, 0.1);
+border-radius: 7px;
+margin-top: 16px;
+padding-left: 14px;
+font-size: large;
+
+} 
+
+#login-button button{
+    width: 364px;
+    height: 48px;
+    margin-top: 13px;
+border: none;
+background-color: #1778f2;
+border-radius: 7px;
+color: #fff;
+font-size: 20px;
+font-weight: bold;
+cursor: pointer;
+}
+#login-button button span:hover{
+text-decoration-line: underline;
+cursor: pointer;
+}
+::placeholder{
+    font-size: medium;    
+    opacity: .7;
+}
+
+#forgot{
+    text-decoration: none;
+    font-size: 14px;
+    color: #1778f2;
+    margin-top: 20px;
+}
+#forgot:hover{
+text-decoration-line: underline;
+}
+hr{
+margin-top: 20px;
+width: 364px;
+height:1px;
+opacity: .4;
+}
+#new-acc button{
+font-size: 17px;
+font-weight: bold;
+color: #fff;
+border: none;
+background-color: #42b72a;
+width: 197px;
+height: 48px;
+border-radius: 8px;
+margin-top: 26px;
+}
+#new-acc button span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#box-under {
+    margin-top: 54px;
+    font-size: 14px;
+}
+#box-under a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
